@@ -1,0 +1,13 @@
+Class: MenuItems
+
+Attributes:
+servingSize (integer)
+vegetarian (boolean)
+addOns (array)
+initialPrice (float)
+
+Methods:
+applyCoupon (if someone has a coupon for a specific menu item, the price attribute will change)
+addMeat (this will change the vegetarian attribute to false, and also effect the array attribute, as well as the price)
+orderHalfSize (This will divide the serving size in half, and also change the price attribute)
+substituteItems (this will effect the addOns array, as well as the vegetarian attribute depending if you get/substitute meat, and also may)
