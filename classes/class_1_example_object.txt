@@ -1,0 +1,13 @@
+Object: Ceasar Salad
+
+Attributes:
+var servingSize = 2;
+var vegetarian = true;
+var addOns = ['Chicken', 'Ranch', 'Arrugala'];
+var initialPrice = 12.50
+
+Methods:
+applyCoupon(the coupon someone uses is %50 off, so now initialPrice = 6.25)
+addMeat(the person wants to add chicken, so now the vegetarian = false, and the chicken item in the array addOns is taken out)
+orderHalfSize(the servingSize = 1, and the price gets knocked down to 3.15 due to the coupon)
+substituteItems(the person wants to substitute the Ceasar with the 'ranch', so now the ranch gets taken out of the addOns array)
