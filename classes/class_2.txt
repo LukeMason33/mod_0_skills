@@ -1,0 +1,12 @@
+Class: BarDrinks
+Attributes:
+alcoholContent (float)
+size (integer)
+isBeerOnTap (boolean)
+colorOfDrink (string)
+
+Methods:
+makeItADouble (will change the size attribute, as well as the alcoholContent attribute)
+finishKeg (this will change the isBeerOnTap attribute)
+addJuice (this will change the color attribute)
+trySample (this will reduce the size of the drink)
