@@ -1,0 +1,13 @@
+Object: Blue Moon
+
+Attributes:
+var alcoholContent = 4.5;
+var sizeInOunces = 16;
+var isBeerOnTap = true;
+var colorOfDrink = 'Gold';
+
+Methods:
+makeItADouble (assuming that you're able to double the size of a beer, this will make sizeInOunces = 32, and rise the alcoholContent)
+finishKeg (this will turn isBeerOnTap = false since it's all gone now)
+addJuice (this will turn the colorOfDrink = 'Orange')
+trySample (assuming that this will be done before the keg is finished, the attribute sizeInOunces = 2)
