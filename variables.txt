@@ -6,6 +6,7 @@ var num7 = 54 ;
 var quotient = num2 / num7 ;
 var songs = ["Shooting Star", "Allstar", "Candy Paint"];
 
-console.log(songs.splice(1, ));
+songs.shift();
+console.log(songs);
 
 console.log(food.length);
